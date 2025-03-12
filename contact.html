@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Fab Gadget Ltd.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css" type="text/css">
+  </head>
+  <body>
+      <script src="scripts/script.js" defer></script>
+      <script src="https://cdn.jsdelivr.net/npm/validator@13.7.0/validator.min.js"></script>
+      <!-- This section is the header of the webpage -->
+      <header>
+          <img src="images/logo.jpg" alt="Fab Gadget Logo" width="100" height="100" />
+          <h1>Fab Gadget Ltd.</h1>
+          <h2>Delivering quality and innovative robotics to your home</h2>
+      </header>
+      <!-- This section is the navigation bar -->
+      <nav>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="mower.html">Robot Mowers</a></li>
+              <li><a href="video.html">Video</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </nav>
+      <!-- This is the main content area of the page -->
+      <main>
+          <h1>Contact Us</h1>
+
+          <p>We are based in the UK, with multiple warehouse across UK, EU and USA. </p>
+
+          <p>Phone Number: 07904935966306</p>
+
+          <div id="container">
+              <form method="dialog">
+                  <div>
+                      <label for="fname">Name:</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Name">
+                  </div>
+
+                  <div>
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" placeholder="example@email.com">
+                  </div>
+
+                  <div>
+                      <label for="message">Message</label>
+                      <textarea id="message" name="message" placeholder="Message..." style="height:200px"></textarea>
+                  </div>
+
+                  <div>
+                      <input type="submit" id="send" value="Send!" onclick="SendEmail()">
+                  </div>
+              </form>
+          </div>
+      </main>
+      <!-- This is the footer -->
+      <footer>
+          <ul id="social">
+              <li>
+                  <a href="https://www.facebook.com">
+                      <img src="images/logo.jpg" alt="Like us on Facebook!" width="40px" height="40px">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.youtube.com">
+                      <img src="images/logo.jpg" alt="Subscribe!" width="40px" height="40px">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.tiktok.com">
+                      <img src="images/logo.jpg" alt="Follow!" width="40px" height="40px">
+                  </a>
+              </li>
+          </ul>
+          <ul id="legal">
+              <li><a href="#">Privacy Policy</a></li>
+          </ul>
+      </footer>
+  </body>
+</html>
